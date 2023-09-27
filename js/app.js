@@ -24,3 +24,18 @@ foods.push('pizza', 'cheeseburger');
 
 // Output updated foods array to the console
 console.log('Exercise 2 Result:\n',  foods);
+
+/*
+Exercise 3:
+  - Add the string 'taco' to the foods array so that 'taco' is the first food in the array.
+*/
+
+// Complete Exercise 3 below...
+
+// Unshift method adds item(s) to the beginning of an array; in this case, 'taco'
+foods.unshift('taco');
+
+// Output updated foods array to the console
+console.log('Exercise 3 Result:\n', foods);
+
+/*
